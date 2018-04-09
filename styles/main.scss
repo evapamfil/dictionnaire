@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$red: #F32617;
+$green: #03BF52;
+$blue: #0067BF;
+$yellow: #FDD713;
+$grey: #727272;
+$light-grey: #C7C7C7;
+$orange: #FA610B;
+
+$raleway: 'Raleway', sans-serif;
+
+main {
+  padding: 0 20px;
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #fff;
+}
+
+.langue {
+  display: flex;
+  align-items: center;
+  img:last-child {
+    margin-left: 5px;
+  }
+}
+
+.btn {
+  height: 30px;
+  border: solid 1px #000;
+  width: 100%;
+  border-radius: 13px;
+  background: none;
+  font-family:$raleway;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background-color: #fff;
+  a {
+    text-decoration: none;
+    color: $grey;
+    font-family: $raleway;
+  }
+
+  svg {
+    max-height: 30px;
+    path, rect {
+      fill: $grey;
+      stroke: $grey;
+    }
+  }
+  p {
+    margin-top: 2.5px;
+    font-weight: 400;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .favoris.is-active {
+    svg path, rect {
+      fill: $yellow;
+      stroke: $yellow;
+    }
+  }
+  .recherche.is-active {
+    svg path, rect {
+      fill: $green;
+      stroke: $green;
+    }
+  }
+  .reglage.is-active {
+    svg path, rect {
+      fill: $orange;
+      stroke: $orange;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+  h2 {
+    font-family: $raleway;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 10px;
+  }
+
+}
+
+.list {
+  margin-top:20px;
+  font-family: $raleway;
+  font-weight: 400;
+  h3 {
+    font-weight: 400;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      padding: 10px 0px;
+      padding-left: 20px;
+      border-bottom: solid 1px $light-grey;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+  }
+}
