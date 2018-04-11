@@ -36,15 +36,56 @@
     <div class="container-login">
         <div class="connexion">
             <img src="image/connexion.png">
-            <button class="btn">Se connecter</button>
+            <button class="btn button-co">Se connecter</button>
         </div>
         <div class="line"></div>
         <div class="inscription">
             <img src="image/register.png" alt="">
-            <button class="btn">S'inscrire</button>
+            <button class="btn button-inscription">S'inscrire</button>
         </div>
     </div>
 </main>
+<!-- MODAL -->
+<section class="co modal">
+    <div class="header-modal">
+        <h2>Se connecter</h2>
+        <button class="close"><img src="image/close.png"> </button>
+    </div>
+    <form action="">
+        <button class="btn btn-fb">Connexion fb</button>
+        <div class="flex">
+            <div class="line"></div>
+            <p>Se connecter par mail</p>
+            <div class="line"></div>
+        </div>
+        <span>Adresse mail</span>
+        <input type="text">
+        <span>Mot de passe</span>
+        <input type="text">
+
+        <button class="btn btn-co">Se connecter</button>
+    </form>
+</section>
+<section class="ins modal">
+    <div class="header-modal">
+        <h2>S'incrire</h2>
+        <button class="close"><img src="image/close.png"> </button>
+    </div>
+    <form action="">
+        <button class="btn btn-fb">Inscription fb</button>
+        <div class="flex">
+            <div class="line"></div>
+            <p>S'inscrire par mail</p>
+            <div class="line"></div>
+        </div>
+        <span>Adresse mail</span>
+        <input type="text">
+        <span>Mot de passe</span>
+        <input type="text">
+
+        <button class="btn btn-ins">S'inscrire</button>
+    </form>
+</section>
 <footer>
     <a href="favoris.html" class="favoris">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="24.588 603.769 34.37 31.707">
@@ -69,6 +110,6 @@
         <p>Réglages</p>
     </a>
 </footer>
-
+<script src="scripts/bundle.min.js"></script>
 </body>
 </html>
