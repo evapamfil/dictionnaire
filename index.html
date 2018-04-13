@@ -36,17 +36,17 @@
     <div class="container-login">
         <div class="connexion">
             <img src="image/connexion.png">
-            <button class="btn button-co">Se connecter</button>
+            <button data-to="connexion" class="btn button-co">Se connecter</button>
         </div>
         <div class="line"></div>
         <div class="inscription">
             <img src="image/register.png" alt="">
-            <button class="btn button-inscription">S'inscrire</button>
+            <button data-to="inscription" class="btn button-inscription">S'inscrire</button>
         </div>
     </div>
 </main>
 <!-- MODAL -->
-<section class="co modal">
+<section data-modal="connexion" class="co modal">
     <div class="header-modal">
         <h2>Se connecter</h2>
         <button class="close"><img src="image/close.png"> </button>
@@ -66,7 +66,7 @@
         <button class="btn btn-co">Se connecter</button>
     </form>
 </section>
-<section class="ins modal">
+<section data-modal="inscription" class="ins modal">
     <div class="header-modal">
         <h2>S'incrire</h2>
         <button class="close"><img src="image/close.png"> </button>
