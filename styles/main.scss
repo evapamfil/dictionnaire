@@ -86,18 +86,27 @@ footer {
       fill: $yellow;
       stroke: $yellow;
     }
+      p{
+          color:  $yellow;
+      }
   }
   .recherche.is-active {
     svg path, rect {
       fill: $green;
       stroke: $green;
     }
+      p{
+          color: $green;
+      }
   }
   .reglage.is-active {
     svg path, rect {
       fill: $orange;
       stroke: $orange;
     }
+      p{
+          color: $orange;
+      }
   }
 }
 
@@ -147,7 +156,7 @@ footer {
   border: solid 1px $light-grey;
   border-radius: 11px;
   padding: 20px;
-  background-color: $light-grey;
+  background-color: rgba(0, 0, 0, 0.05);
 
   .header-modal{
     display: flex;
