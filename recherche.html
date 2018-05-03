@@ -43,7 +43,32 @@
             <li>Développement</li>
         </ul>
     </div>
-    <button class="proposer-def btn">Proposer une définition</button>
+    <button data-to="prop-def" class="proposer-def btn">Proposer une définition</button>
+    <section data-modal="prop-def" class="prop-def modal">
+        <div class="header-modal">
+            <h2>Proposer une définition</h2>
+            <button class="close"><img src="image/close.png"> </button>
+        </div>
+        <form action="">
+            <input type="text" class="input-1" placeholder="Design">
+           <div class="flex types">
+               <button class="type-word">Masculin</button>
+               <button class="type-word">Féminin</button>
+               <button class="type-word">Autre</button>
+           </div>
+            <h3>Définition</h3>
+            <input type="text" class="input-1 def" placeholder="Esthétique industrielle..">
+            <h3>Synonymes</h3>
+            <ul class="contener-syno">
+                <li class="syno">
+                    <img src="image/syno.png" alt="">
+                    <p>Stylique</p>
+                </li>
+            </ul>
+            <button class="btn">Valider</button>
+        </form>
+    </section>
+
 </main>
 <footer>
     <a href="favoris.html" class="favoris">
@@ -76,7 +101,7 @@
         <p>Réglages</p>
     </a>
 </footer>
-
+<script src="scripts/bundle.min.js"></script>
 </body>
 </html>
 

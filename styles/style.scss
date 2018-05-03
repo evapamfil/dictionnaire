@@ -1,4 +1,17 @@
-@import "main.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$red: #F32617;
+$green: #03BF52;
+$blue: #0067BF;
+$yellow: #FDD713;
+$grey: #727272;
+$light-grey: #C7C7C7;
+$orange: #FA610B;
+
+$raleway: 'Raleway', sans-serif;
 
 h1 {
   font-size: 22px;
@@ -87,6 +100,51 @@ p {
 .proposer-def {
   border-color: $red !important;
   color: $red;
+}
+
+.modal.prop-def{
+  input{
+    font-size: 20px;
+  }
+  .def{
+    font-size: 16px;
+  }
+  form {
+    margin-top: 20px;
+
+    .flex.types {
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .type-word{
+      background: none;
+      border:solid 1px $grey;
+      padding: 5px 15px;
+      border-radius: 15px;
+    }
+  }
+  .contener-syno{
+    list-style: none;
+    li{
+      display: flex;
+      align-items: center;
+      margin:10px 0;
+
+      p{
+        margin:inherit;
+        margin-left:10px;
+        padding-bottom: 5px;
+        width: 100%;
+        border-bottom: solid 1px $light-grey;
+      }
+    }
+  }
+  .btn{
+    background-color: $green;
+    border-color: $green;
+    color: #fff;
+    margin-top:120px;
+  }
 }
 
 .notif {
