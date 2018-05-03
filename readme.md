@@ -1,12 +1,12 @@
-#PROJET WEBDESIGN DICTIONNAIRE  
+# PROJET WEBDESIGN DICTIONNAIRE  
 
-_Vue : 375x667_  
+_ Vue : 375x667 _  
 
-##Commandes
+## Commandes
 
-*gulp sass / compile css
-*gulp scripts / compile js
-*gulp watch / lance la vue
+* gulp sass / compile css  
+* gulp scripts / compile js  
+* gulp watch / lance la vue  
 
 
 
